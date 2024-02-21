@@ -1,0 +1,58 @@
+.title-technology{
+    color: white;
+    padding: 1.6rem 0;    
+    border-top-left-radius: 2rem;
+    border-top-right-radius: 2rem;
+    background-color: #0096a9;
+
+}
+
+.cont-titulo-technology{
+    box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+}
+
+
+.row-technology{
+    height: 100%;
+}
+
+.contenedor-tecnologia{
+    min-height: 28rem;
+
+    height: 100%;
+
+    padding: 3rem 3rem;
+    
+}
+
+@media (max-width: 1348px) {
+    
+    .contenedor-tecnologia{
+ 
+        padding: 0;
+    }
+
+}  
+
+
+
+
+
+.tecnologia{
+    background-color: #d3d1d1;
+    min-height: 25rem;
+    padding-top: 1.3rem;
+    border-bottom-left-radius: 2rem;
+    border-bottom-right-radius: 2rem;
+
+    border-top-left-radius: 2rem;
+    border-top-right-radius: 2rem;
+
+    box-shadow: 0 0 6px #00BCD4;
+
+
+}
+
+.icono-tecnologia{
+    width: 4.5rem;
+}

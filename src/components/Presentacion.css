@@ -1,0 +1,97 @@
+
+
+.contenedor-presentacion{
+    height: 29rem;
+    background-color: #111315;
+}
+
+.nombre{
+    font-size: 2.7rem;
+    font-weight: bold;
+    text-shadow: 1px 1px 4px rgb(0, 0, 0); /* Desplazamiento horizontal, desplazamiento vertical, desenfoque y color de sombra */
+    font-weight: 800;
+}
+
+.presentacion-p{
+    color: rgb(182, 183, 185);
+}
+
+.foto-presentacion{
+    height: 17rem;
+    width: 17rem;
+    border-radius: 9rem;
+    background-color: antiquewhite;
+    box-shadow: 0 0 7px #00BCD4;;
+}
+
+.desarrollador{
+    text-shadow: 2px 0 #000000, -2px 0 #000000, 0 2px #000000, 0 -2px #000000,
+    1px 1px #000000, -1px -1px #000000, 1px -1px #000000, -1px 1px #000000;    
+    color: #f8f8f8a9;
+}
+
+.saludo{
+    color: #00BCD4;
+}
+
+
+/*NOMBRE*/
+.color-rotate {
+    font-size: 2.9rem;
+    color: white;
+
+}
+
+.logo{
+    width: 3rem;
+    cursor: pointer;
+}
+
+.btn-descargar{
+    height: 3.2rem;
+    width: 10rem;
+    border: none;
+    border-radius: 3rem;
+    background-color: black;
+    color: rgb(191, 197, 201);
+    font-size: 0.9rem;
+    padding: 1rem;
+    font-weight: bold;
+}
+
+.bi-file-earmark-person{
+    color: #00BCD4;
+}
+
+.color-change-2x {
+    transition: background 2s ease; /* Ajusta la duración y el efecto según tus preferencias */
+  }
+
+.color-change-2x:hover {
+    -webkit-animation: color-change-2x 1s linear infinite alternate both;
+            animation: color-change-2x 1s linear infinite alternate both;
+
+            
+  }
+  
+  @-webkit-keyframes color-change-2x {
+    0% {
+      background: #001c1e;
+    }
+    100% {
+      background: #0ca1ac;
+    }
+  }
+  
+  @keyframes color-change-2x {
+    0% {
+        background: #001c1e;
+      }
+      100% {
+        background: #0ca1ac;
+      }
+  }
+
+  hr{
+    color: rgb(194, 196, 198);
+  }
