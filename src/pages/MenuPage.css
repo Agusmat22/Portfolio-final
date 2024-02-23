@@ -1,49 +1,5 @@
-.contenedor-sobreMi{
-    min-height: 30rem;
+.contacto{
     background-color: #090909;
 }
-
-.text-sobre, .text-mi{
-    font-size: 2rem;
-    color: aliceblue;
-    font-weight: 700;
-        
-}
-
-.letra-color{
-    color: #00BCD4;
-    
-}
-
-.letra-color-mi{
-    font-weight: 800;
-}
-
-.letra-color-tech{
-    color: #072e35;
-    font-weight: 800;
-    
-}
-
-.text-informacion{
-    color: aliceblue;
-    font-size: 1.1rem;
-    font-weight: 300;
-    letter-spacing: 1px;
-}
-
-.row-technology{
-    width: 75%;
-}
-
-.separador{
-    background-color: #072e35;
-    height: 28rem;
-    width: 2px;
-    margin: 0 3rem;
-}
-
-
-  
 
   
