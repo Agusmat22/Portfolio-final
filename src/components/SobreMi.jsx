@@ -1,6 +1,5 @@
 import React from 'react'
 import { CardTech } from '../components/CardTech';
-import { Chrono } from 'react-chrono';
 
 import './SobreMi.css'
 //BACKEND
@@ -9,6 +8,7 @@ import icon_net from '../img/tecnologias/net.svg'
 import icon_python from '../img/tecnologias/python.svg'
 import icon_sql from '../img/tecnologias/sql-server.svg'
 import icon_docker from '../img/tecnologias/docker3.svg'
+import icon_linux from '../img/tecnologias/linux.png'
 
 //FRONTEND
 
@@ -17,62 +17,24 @@ import icon_css from '../img/tecnologias/css.svg'
 import icon_js from '../img/tecnologias/js.svg'
 import icon_react from '../img/tecnologias/react.svg'
 import icon_bootstrap from '../img/tecnologias/bootstrap.svg'
-
-
-const items = [{
-  title: "May 1940",
-  cardTitle: "Dunkirk",
-  url: "http://www.history.com",
-  cardSubtitle:"Men of the British Expeditionary Force (BEF) wade out to..",
-  cardDetailedText: "Men of the British Expeditionary Force (BEF) wade out to..",
-  media: {
-    type: "IMAGE",
-    source: {
-      url: "http://someurl/image.jpg"
-    }
-  }
-}, {
-  title: "May 1960",
-  cardTitle: "Dunkirk",
-  url: "http://www.history.com",
-  cardSubtitle:"Men of the British Expeditionary Force (BEF) wade out to..",
-  cardDetailedText: "Men of the British Expeditionary Force (BEF) wade out to..",
-  media: {
-    type: "IMAGE",
-    source: {
-      url: "http://someurl/image.jpg"
-    }
-  }
-},
-{
-  title: "May 1980",
-  cardTitle: "Dunkirk",
-  url: "http://www.history.com",
-  cardSubtitle:"Men of the British Expeditionary Force (BEF) wade out to..",
-  cardDetailedText: "Men of the British Expeditionary Force (BEF) wade out to..",
-  media: {
-    type: "IMAGE",
-    source: {
-      url: "http://someurl/image.jpg"
-    }
-  }
-},]
+import { LineTime } from './LineTime';
+import { getTrabajos } from '../data/getTrabajos';
+import { getEstudios } from '../data/getEstudios';
 
 
 
 
-
-const iconsBackend = [icon_c, icon_net, icon_python, icon_sql, icon_docker];
+const iconsBackend = [icon_c, icon_net, icon_python, icon_sql, icon_docker,icon_linux];
 
 const iconsFrontend = [icon_html, icon_css, icon_js, icon_react, icon_bootstrap];
 
 
 export const SobreMi = () => {
   return (
-    <div className="contenedor-sobreMi mt-1 pt-3">
+    <div className="contenedor-sobreMi  pt-3">
           <h4 className='text-center text-sobre pt-5 pb-3m'>Sobre <span className='letra-color letra-color-mi'>mí</span></h4>
 
-          <div className='container p-5'>
+          <div className='container p-5 d-flex flex-column align-items-center justify-content-center'>
             <p className="text-informacion text-center">
               Soy un <span className='letra-color'>desarrollador FullStack. </span>
               Actualmente, me encuentro en el segundo año de la Facultad, con más de <span className='letra-color'>10</span> materias promocionadas.
@@ -81,14 +43,33 @@ export const SobreMi = () => {
               obteniendo experiencia en los distintos contextos de negocios. En mi actual trabajo <span className='letra-color'>desarrolle</span> varías apliaciones
               para <span className='letra-color'>agilizar</span> las tareas del area de facturación.
             </p>
-            
+
+            <div className='row mt-5 pt-5' style={{width: '100%'}}>
+
+              <div className="col-6">
+                <h4 className='text-center fs-4 title-exp'>Experiencia laboral</h4>
+                <div className='mt-5' style={{width: '100%'}}>
+                  <LineTime items={getTrabajos()} />
+                </div>
+              </div>
+
+
+              <div className="col-6">
+                <h4 className='text-center fs-4 title-exp'>Estudios Academicos</h4>
+                <div className='mt-5' style={{width: '100%'}}>
+           
+                  <LineTime items={getEstudios()} />
+                </div>
+              </div>
+            </div>
+
+               
           </div>
 
           <div className='contenedor-tecnologias d-flex flex-column align-items-center justify-content-center text-center'>
 
               <hr />
-              <h4 className='text-center text-sobre pt-2 pb-5 mb-2'>
-                  <span className='letra-color'>Te</span>cnologías</h4>
+              <h4 className='text-center text-sobre  pb-5 mb-2'>Tecnologías</h4>
 
                   
                   
@@ -111,21 +92,10 @@ export const SobreMi = () => {
                 </div>
 
 
-                {/*  DESPUES SIGO CON ESTO
+                {/*  DESPUES SIGO CON ESTO*/}
 
-                 <Chrono 
-                  items={items} 
-                  mode="VERTICAL"
-                  theme={{
-                    primary: 'red',
-                    secondary: 'blue',
-                    cardBgColor: 'yellow',
-                    titleColor: 'white',
-                    titleColorActive: 'red',
-                  }}>
-                  
-                </Chrono>
-                */}
+                 
+                
            
             </div>
 

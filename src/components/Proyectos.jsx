@@ -1,42 +1,51 @@
 import React from 'react'
 
 import './Proyectos.css'
+import { getProyectos } from '../data/getProyectos'
+
+//IMAGENES PROYECTOS
+
+const proyectosRealizados = getProyectos();
 
 export const Proyectos = () => {
   return (
 
-    <div className="proyectos d-flex flex-column align-items-center  mt-1 pt-3">
+    <div className="proyectos d-flex flex-column align-items-center  pt-3">
 
-          <h4 className='text-center text-sobre pt-5 pb-3'>Proyec<span className='letra-color letra-color-mi'>tos</span></h4>
+          <h4 className='text-center text-sobre pt-5 pb-3'>Mis Proyectos</h4>
 
 
           <div className="contenedor-proyectos">
 
-            <div className="row g-0 row-cols">
+            {
+              proyectosRealizados.map( (proy,index) => (
 
-              <div className="col-7" style={{backgroundColor: 'blue'}}>
-                <h5>Proyecto1</h5>
-              </div>
+                <div key={index} className={`row g-0 row-cols contenedor-fila ${index % 2 === 0 ? '' : 'flex-row-reverse' }`}>
 
-              <div className="col"  style={{backgroundColor: 'gray'}}>
-                <p>Aqui tendras el detalle</p>
-              </div>
+                  <div className="col-6 dimension-fila">
+                      <img alt='proyecto-afi' src={proy.img} className='img-fluid img-proyecto' />  
+                  </div>
 
-            </div>
+                  <div className="col"  style={{backgroundColor: '#090909'}}>
+                    <div className="proyecto-datos d-flex flex-column text-center align-items-center justify-content-around">
 
-            <div className="row g-0 row-cols-12">
+                      <div className='pt-4'>
 
-              
+                        <h4 className='title-proyec'>{proy.title}</h4>
+                        <p className='text-proyec-tecno pt-3'>{proy.tecnologias}</p>
+                        <p className='text-proyec-info mt-2' >{proy.descripcion}</p>
 
-              <div className="col" style={{backgroundColor: 'gray'}}>
-                <p>Aqui tendras el detalle</p>
-              </div>
+                      </div>
+                      
+                      <div className='d-flex flex-column justify-content-center align-items-center' style={{height: '5rem', width: '100%'}}>
+                        <button className='btn-repositorio color-change-2x mb-2'>Ver repositorio</button>
+                      </div>
 
-              <div className="col-7" style={{backgroundColor: 'red'}}>
-                <h5>Proyecto1</h5>
-              </div>
-
-            </div>
+                    </div>      
+                  </div>
+                </div>
+              ))
+            }
 
           </div>
 

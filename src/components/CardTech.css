@@ -17,22 +17,49 @@
 }
 
 .contenedor-tecnologia{
-    min-height: 28rem;
+    min-height: 27rem;
 
     height: 100%;
 
-    padding: 3rem 3rem;
+    padding: 3rem 7rem;
     
 }
 
-@media (max-width: 1348px) {
+@media (max-width: 1669px) {
     
     .contenedor-tecnologia{
  
-        padding: 0;
+        padding: 3rem 5rem;
     }
 
-}  
+}
+
+@media (max-width: 1569px) {
+    
+    .contenedor-tecnologia{
+ 
+        padding: 3rem 4rem;
+    }
+
+}
+
+@media (max-width: 1369px) {
+    
+    .contenedor-tecnologia{
+ 
+        padding: 3rem 3rem;
+    }
+
+} 
+
+@media (max-width: 1200px) {
+    
+    .contenedor-tecnologia{
+ 
+        padding: 3rem 1rem;
+    }
+
+} 
 
 
 
@@ -40,7 +67,7 @@
 
 .tecnologia{
     background-color: #d3d1d1;
-    min-height: 25rem;
+    min-height: 24rem;
     padding-top: 1.3rem;
     border-bottom-left-radius: 2rem;
     border-bottom-right-radius: 2rem;

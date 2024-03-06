@@ -10,7 +10,7 @@ export const CardTech = ({iconos = [], titulo=''}) => {
   return (
     <div className="contenedor-tecnologia ">
         {/*BACKEND */}
-        <div className="tecnologia d-flex flex-column align-items-center  p-0">
+        <div className="tecnologia d-flex flex-column align-items-center just  p-0">
 
             <div className='cont-titulo-technology'  style={{width: '100%'}}>
 
@@ -20,7 +20,7 @@ export const CardTech = ({iconos = [], titulo=''}) => {
 
             </div>                 
 
-            <div className="row row-cols-2"  style={{maxWidth: '80%'}}>
+            <div className="row row-cols-2 mt-4"  style={{maxWidth: '80%'}}>
 
 
                 {

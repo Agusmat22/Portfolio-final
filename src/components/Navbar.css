@@ -1,9 +1,19 @@
 .navbar{
-    background-color: #060303;
-    box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+    background-color: #111315;
+}
+
+.nav-link{
+    font-weight: 700;
+    font-size: 1.1rem;
+
 }
 
 .nav-link:hover{
-    color: aliceblue;
+    color: #00BCD4;
     cursor: pointer;
+}
+
+.nav-item{
+    margin: 0 1.1rem;
+    padding: 1rem;
 }

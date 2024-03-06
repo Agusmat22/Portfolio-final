@@ -17,9 +17,9 @@ export const MenuPage = () => {
 
         <Proyectos />
 
-        <div className="contacto mt-1">
+        <div className="contacto">
 
-          <h4 className='text-center text-sobre pt-5 pb-3'><span className='letra-color letra-color-mi'>Co</span>ntacto</h4>
+          <h4 className='text-center text-sobre pt-5 pb-3'>Contacto</h4>
 
         </div>
   

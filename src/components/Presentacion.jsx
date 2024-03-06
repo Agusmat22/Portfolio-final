@@ -4,6 +4,7 @@ import logoGit from '../img/logo-git.png';
 import logoLinkedin from '../img/logo-linkedin.svg';
 
 import './Presentacion.css'
+import foto_perfil from '../img/foto_perfil.jpeg';
 
 export const Presentacion = () => {
   return (
@@ -11,7 +12,7 @@ export const Presentacion = () => {
 
 
           <div className="col-5 d-flex flex-column align-items-center">
-            <img className='foto-presentacion' src="#" alt="foto" />
+            <img className='foto-presentacion' src={foto_perfil} alt="foto" />
             <hr />
           </div>
 
