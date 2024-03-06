@@ -1,7 +1,7 @@
 
 
 .contenedor-presentacion{
-    height: 29rem;
+    min-height: 29rem;
     background-color: #111315;
 }
 
@@ -95,3 +95,25 @@
   hr{
     color: rgb(194, 196, 198);
   }
+
+
+  /*RESPONSIVE*/
+
+@media(max-width: 991px)
+{
+    .contenedor-presentacion{
+
+    }
+
+    .saludo{
+      font-size: 2.1rem;
+      
+    }
+
+    .color-rotate
+    {
+      font-size: 2.1rem;
+    }
+
+    
+}

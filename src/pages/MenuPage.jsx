@@ -5,6 +5,7 @@ import './MenuPage.css'
 import { Presentacion } from '../components/Presentacion';
 import { SobreMi } from '../components/SobreMi';
 import { Proyectos } from '../components/Proyectos';
+import { Contacto } from '../components/Contacto';
 
 
 export const MenuPage = () => {
@@ -17,11 +18,8 @@ export const MenuPage = () => {
 
         <Proyectos />
 
-        <div className="contacto">
-
-          <h4 className='text-center text-sobre pt-5 pb-3'>Contacto</h4>
-
-        </div>
+        <Contacto />
+        
   
 
     </div>
