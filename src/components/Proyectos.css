@@ -38,6 +38,24 @@
 
 }
 
+@media (max-width: 768px) {
+    
+    .contenedor-proyectos{
+        box-shadow: none;
+    }
+
+    .col-descripcion{
+        border-radius: 0 0 2rem 2rem;
+        box-shadow: 0 0 10px;
+    }
+
+    .col-img{
+        box-shadow: 0 0 10px;
+
+    }
+
+}
+
 
 .contenedor-fila{
     min-height: 20rem;

@@ -20,7 +20,7 @@ export const getEstudios = () => {
         title: "Dic 2023",
         cardTitle: "Curso JavaScript | React  UDEMY",
         cardSubtitle:"Diciembre 2023 - Febrero 2024",
-        cardDetailedText: `Curos realizado por Fernando Herrera`,
+        cardDetailedText: `Cursos realizado por Fernando Herrera`,
         
       },
   ]

@@ -46,7 +46,7 @@ export const SobreMi = () => {
 
             <div className='row mt-5 pt-5' style={{width: '100%'}}>
 
-              <div className="col-6">
+              <div className="col col-md-6">
                 <h4 className='text-center fs-4 title-exp'>Experiencia laboral</h4>
                 <div className='mt-5' style={{width: '100%'}}>
                   <LineTime items={getTrabajos()} />
@@ -54,7 +54,7 @@ export const SobreMi = () => {
               </div>
 
 
-              <div className="col-6">
+              <div className="col col-md-6">
                 <h4 className='text-center fs-4 title-exp'>Estudios Academicos</h4>
                 <div className='mt-5' style={{width: '100%'}}>
            
@@ -76,7 +76,7 @@ export const SobreMi = () => {
 
             <div className="row row-technology g-0 d-flex justify-content-center align-items-center mb-5 pb-5">
     
-                <div className="col-5">
+                <div className="col-12 col-md-5">
                   {/*BACKEND */}
                   <CardTech iconos={iconsBackend} titulo='Back' />
                 </div>
@@ -86,7 +86,7 @@ export const SobreMi = () => {
                 </div>
 
 
-                <div className="col-5">
+                <div className="col-12 col-md-5">
                   {/*FRONTEND */}
                   <CardTech iconos={iconsFrontend} titulo='Front' />
                 </div>

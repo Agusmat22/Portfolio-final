@@ -20,13 +20,13 @@ export const Proyectos = () => {
             {
               proyectosRealizados.map( (proy,index) => (
 
-                <div key={index} className={`row g-0 row-cols contenedor-fila ${index % 2 === 0 ? '' : 'flex-row-reverse' }`}>
+                <div key={index} className={`row g-0 p-1 p-sm-5 p-md-0 row-cols contenedor-fila ${index % 2 === 0 ? '' : 'flex-row-reverse' }`}>
 
-                  <div className="col-6 dimension-fila">
+                  <div className="col-md-6 dimension-fila col-img">
                       <img alt='proyecto-afi' src={proy.img} className='img-fluid img-proyecto' />  
                   </div>
 
-                  <div className="col"  style={{backgroundColor: '#090909'}}>
+                  <div className="col-md-6 mb-5 mb-md-0 col-descripcion"  style={{backgroundColor: '#090909'}}>
                     <div className="proyecto-datos d-flex flex-column text-center align-items-center justify-content-around">
 
                       <div className='pt-4'>

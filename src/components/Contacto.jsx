@@ -7,44 +7,44 @@ export const Contacto = ()=>{
 
             <div className="row" style={{minheight: '18rem', width: '100%'}}>
 
-            <div className="col-6">
+                <div className="col-md-6">
 
-                <div className="d-flex flex-column justify-content-start align-items-center" >
+                    <div className="d-flex flex-column justify-content-start align-items-center" >
 
-                <div className='d-flex flex-column align-items-center mb-5 pb-4' style={{height: '100%', width: '70%'}}>
+                    <div className='d-flex flex-column align-items-center mb-5 pb-4' style={{height: '100%', width: '70%'}}>
 
-                    <label className='label mb-2 fs-4'>Nombre</label>
-                    <input className='form form-label' placeholder='Ingrese su nombre' style={{width: '100%'}} />
+                        <label className='label mb-2 fs-4'>Nombre</label>
+                        <input className='form form-label' placeholder='Ingrese su nombre' style={{width: '100%'}} />
 
+                    </div>
+
+                    <div className='d-flex flex-column align-items-center mb-5 pb-4' style={{height: '100%', width: '70%'}}>
+
+                        <label className='label mb-2 fs-4'>Email</label>
+                        <input className='form form-label' placeholder='Ingrese su mail' style={{width: '100%'}} />
+
+                    </div>
+                    </div>
                 </div>
 
-                <div className='d-flex flex-column align-items-center mb-5 pb-4' style={{height: '100%', width: '70%'}}>
+                <form className="col-md-6">
 
-                    <label className='label mb-2 fs-4'>Email</label>
-                    <input className='form form-label' placeholder='Ingrese su mail' style={{width: '100%'}} />
+                    <div className='d-flex flex-column justify-content-start align-items-center'>
 
-                </div>
-                </div>
-            </div>
+                    <div className="mb-3 text-center" style={{width: '70%'}}>
+                        <label className="form-label fs-4">Example textarea</label>
+                        <textarea className="form-control" rows="7"></textarea>
+                    </div>
 
-            <form className="col-6">
+                    <div className='d-flex flex-column justify-content-center align-items-center' style={{height: '5rem', width: '100%'}}>
+                        <button className='btn-repositorio color-change-2x mb-2'>Enviar</button>
+                    </div>
 
-                <div className='d-flex flex-column justify-content-start align-items-center'>
+                    </div>
 
-                <div className="mb-3 text-center" style={{width: '70%'}}>
-                    <label className="form-label fs-4">Example textarea</label>
-                    <textarea className="form-control" rows="7"></textarea>
-                </div>
+                    
 
-                <div className='d-flex flex-column justify-content-center align-items-center' style={{height: '5rem', width: '100%'}}>
-                    <button className='btn-repositorio color-change-2x mb-2'>Enviar</button>
-                </div>
-
-                </div>
-
-                
-
-            </form>
+                </form>
 
             </div>
         </div>
