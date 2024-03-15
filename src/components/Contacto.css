@@ -1,0 +1,13 @@
+.input-conct{
+ 
+    width: 40% !important;
+}
+
+@media (max-width: 1000px) {
+    
+    .input-conct{
+ 
+        width: 70% !important;
+    }
+
+} 

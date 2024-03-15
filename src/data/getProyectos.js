@@ -11,7 +11,7 @@ export const getProyectos = () => {
         title: 'Gestor de afiliados',
         tecnologias: '.NET | C# | SQL Server',
         descripcion: 'Esta aplicación proporciona una solución completa y eficiente para la gestión de afiliados de una obra social, mejorando la accesibilidad y la organización. Facilitando las operaciones administrativas relacionadas con los afiliados. Esta desarrollada en C# utilizando .NET',
-        url: 'www.github.com',
+        url: 'https://github.com/Agusmat22/Gestor_Afiliados_V-2.git',
         img: proyec_gestor,
 
     },
@@ -19,6 +19,7 @@ export const getProyectos = () => {
         title: 'Centro medico',
         tecnologias: '.NET | C# | SQL Server',
         descripcion: 'Es una aplicacion que permite administrar pacientes. Fue diseñada para que el/la recepcionista ingrese un paciente en guardia y el medico de turno pueda visualizar en tiempo real la fila de espera. Luego el medico podra atenderlo, diagnosticandolo y cargando una historia clinica.',
+        url: 'https://github.com/Agusmat22/TP_INTEGRADOR_N2_LABO_II.git',
         img: proyec_centroMedico,
 
     },
@@ -26,6 +27,7 @@ export const getProyectos = () => {
         title: 'War of space',
         tecnologias: 'PYTHON | SQLite',
         descripcion: 'Es un juego desarrollado con la libreria PYGAMES para el final de laboratorio |. Tiene 3 niveles con una barra de vida. A medida que transcurre el tiempo aumenta la dificultad. Cada nivel tiene una mayor dificultad y un distinto escenario.',
+        url: 'https://github.com/Agusmat22/WarOfSpace.git',
         img: proyec_warOfSpace,
 
     },

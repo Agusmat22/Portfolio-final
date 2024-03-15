@@ -31,7 +31,7 @@ const iconsFrontend = [icon_html, icon_css, icon_js, icon_react, icon_bootstrap]
 
 export const SobreMi = () => {
   return (
-    <div className="contenedor-sobreMi  pt-3">
+    <div id='sobreMi' className="contenedor-sobreMi  pt-3">
           <h4 className='text-center text-sobre pt-5 pb-3m'>Sobre <span className='letra-color letra-color-mi'>mí</span></h4>
 
           <div className='container p-5 d-flex flex-column align-items-center justify-content-center'>

@@ -50,7 +50,7 @@ export const Presentacion = () => {
             <div className="iconos d-flex justify-content-center mt-5">
               <img  className='img-fluid logo' src={logoGit} alt="github" onClick={(target)=> onNavigate(target)}/>
 
-              <button className='me-4 ms-4 btn-descargar text-center color-change-2x'> Descargar CV <i className="bi bi-file-earmark-person"></i>  </button>
+              <a className='me-4 ms-4 btn-descargar text-center color-change-2x' href='./cv/cvFebrero2024.pdf' download={'cvFebrero2024.pdf'}> Descargar CV <i className="bi bi-file-earmark-person"></i>  </a>
               
               <img className='img-fluid logo'  src={logoLinkedin} alt="linkedin" onClick={(target)=> onNavigate(target)} />
             </div>

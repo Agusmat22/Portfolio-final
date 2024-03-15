@@ -8,9 +8,16 @@ import { getProyectos } from '../data/getProyectos'
 const proyectosRealizados = getProyectos();
 
 export const Proyectos = () => {
+
+  const onNavigate = (url)=>{
+    window.open(url, '_blank');
+  }
+
+
+
   return (
 
-    <div className="proyectos d-flex flex-column align-items-center  pt-3">
+    <div id='misProyectos' className="proyectos d-flex flex-column align-items-center  pt-3">
 
           <h4 className='text-center text-sobre pt-5 pb-3'>Mis Proyectos</h4>
 
@@ -38,7 +45,7 @@ export const Proyectos = () => {
                       </div>
                       
                       <div className='d-flex flex-column justify-content-center align-items-center' style={{height: '5rem', width: '100%'}}>
-                        <button className='btn-repositorio color-change-2x mb-2'>Ver repositorio</button>
+                        <button className='btn-repositorio color-change-2x mb-2' name={proy.title} onClick={()=> onNavigate(proy.url)}>Ver repositorio</button>
                       </div>
 
                     </div>      

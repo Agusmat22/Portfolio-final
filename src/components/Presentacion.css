@@ -57,6 +57,12 @@
     font-size: 0.9rem;
     padding: 1rem;
     font-weight: bold;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.btn-descargar:hover{
+  color: rgb(191, 197, 201);
 }
 
 .bi-file-earmark-person{

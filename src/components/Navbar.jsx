@@ -19,15 +19,15 @@ export const Navbar = () => {
           <ul className="navbar-nav">
 
             <li className="nav-item">
-              <a className="nav-link" >Sobre mi</a>
+              <a href='#sobreMi' className="nav-link" >Sobre mi</a>
             </li>
 
             <li className="nav-item">
-              <a className="nav-link">Proyecto</a>
+              <a href='#misProyectos' className="nav-link">Proyecto</a>
             </li>
 
             <li className="nav-item">
-              <a className="nav-link">Contacto</a>
+              <a href='#contacto' className="nav-link">Contacto</a>
             </li>
             
           </ul>
