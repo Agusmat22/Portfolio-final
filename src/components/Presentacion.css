@@ -107,9 +107,7 @@
 
 @media(max-width: 991px)
 {
-    .contenedor-presentacion{
 
-    }
 
     .saludo{
       font-size: 2.1rem;
@@ -120,6 +118,18 @@
     {
       font-size: 2.1rem;
     }
+
+    
+}
+
+@media(max-width: 450px)
+{
+
+  .btn-descargar{
+    font-size: 0.8rem;
+    height: 3.6rem;
+}
+  
 
     
 }

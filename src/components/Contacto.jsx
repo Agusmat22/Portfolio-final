@@ -43,11 +43,11 @@ export const Contacto = ()=>{
 
             <h4 className='text-center text-sobre pt-5 pb-3 mb-5'>Contacto</h4>
 
-            <form ref={form} onSubmit={sendEmail}>
+            <form ref={form} onSubmit={sendEmail} className='form-contact d-flex justify-content-center align-items-center'>
 
                 <div className="row" style={{minheight: '18rem', width: '100%'}}>
 
-                    <div className="col-md-6">
+                    <div className="col-12 col-md-6" >
 
                         <div className="d-flex flex-column justify-content-start align-items-center" >
 
@@ -60,14 +60,14 @@ export const Contacto = ()=>{
 
                         <div className='d-flex flex-column align-items-center mb-5 pb-4' style={{height: '100%', width: '100%'}}>
 
-                            <label typeof="email" className='label mb-2 fs-4' name="user_email" >Email</label>
-                            <input className='form form-label input-conct' placeholder='Ingrese su mail'/>
+                            <label className='label mb-2 fs-4'  >Email</label>
+                            <input typeof="email" className='form form-label input-conct' placeholder='Ingrese su mail' name="user_email"/>
 
                         </div>
                         </div>
                     </div>
 
-                    <div className="col-md-6">
+                    <div className="col-12 col-md-6">
 
                         <div className='d-flex flex-column justify-content-start align-items-center'>
 

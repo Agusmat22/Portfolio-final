@@ -6,7 +6,7 @@ export const getEstudios = () => {
         title: "Feb 2023",
         cardTitle: "Universidad Tecnológica Nacional (U.T.N.) Avellaneda",
         cardSubtitle:"Febrero 2023 - En curso",
-        cardDetailedText: `- Tecnicatura en Programacion.`
+        cardDetailedText: `Tecnicatura en Programacion.`
                               
       }, 
       {

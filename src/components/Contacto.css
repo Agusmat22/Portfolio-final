@@ -1,9 +1,36 @@
 .input-conct{
  
-    width: 40% !important;
+    width: 60% !important;
 }
 
-@media (max-width: 1000px) {
+
+.form-contact{
+    width: 100%;
+}
+
+
+
+@media (min-width: 900px) {
+    
+    .form-contact{
+        flex-direction: column;
+    }
+
+    
+
+}
+
+
+@media (min-width: 1300px) {
+    .input-conct{
+ 
+        width: 45% !important;
+    }
+
+}
+
+
+@media (max-width: 687px) {
     
     .input-conct{
  

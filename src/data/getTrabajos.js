@@ -7,7 +7,7 @@ export const getTrabajos = () => {
             title: "Abr 2023",
             cardTitle: "Grupo Roisa - Doctored",
             cardSubtitle:"Analista Facturación | Sistemas",
-            cardDetailedText: `- Actualmente me encuentro trabajando, desarrollo software según las necesidades del sector de liquidaciones. 
+            cardDetailedText: `Actualmente me encuentro trabajando, desarrollo software según las necesidades del sector de liquidaciones. 
             Me encargo de la carga masiva de prestaciones medicas, para realizar las liquidaciones a los correspondientes prestadores.`
                                 
                    
